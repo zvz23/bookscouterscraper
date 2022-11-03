@@ -1,0 +1,600 @@
+{
+    "@context": "\/contexts\/SellPrices",
+    "@id": "\/v4\/prices\/sell\/9781617119309",
+    "@type": "SellPrices",
+    "isbn13": "9781617119309",
+    "book": {
+        "@type": "CachedBook",
+        "@id": "\/v4\/books\/9781617119309",
+        "isbn10": "161711930X",
+        "isbn13": "9781617119309",
+        "asin": "161711930X",
+        "title": "1001 Pediatric Treatment Activities: Creative Ideas for Therapy Sessions",
+        "author": [
+            "Danto MS  OTR\/L, Ayelet H.",
+            "Michelle Pruzansky"
+        ],
+        "image": "https:\/\/m.media-amazon.com\/images\/I\/51e5nZ5qNxL._SL75_.jpg",
+        "publishedDate": "2015-08-15",
+        "publisher": "Slack Incorporated",
+        "binding": "Paperback",
+        "edition": "Second",
+        "numberOfPages": "280",
+        "amazonSalesRank": 734613,
+        "amazonCount": 15,
+        "amazonLowestPrice": 68.11,
+        "amazonTradeInPrice": 0,
+        "slug": "1001-pediatric-treatment-activities-creative-ideas-for-thera",
+        "description": "\u003Cp\u003EDedication\u003Cbr\u003E Acknowledgments \u003Cbr\u003E About the Authors \u003Cbr\u003E Introduction\u003Cbr\u003E Important Warning and Disclaimer  \u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003ESECTION I SENSORY INTEGRATION\u003C\/b\u003E \u003Cbr\u003E Chapter 1 Proprioceptive Activities\u003Cbr\u003E Chapter 2 Motor Planning\u003Cbr\u003E Chapter 3 Pressure Modulation \u003Cbr\u003E Chapter 4 Bilateral Integration\/Crossing Midline \u003Cbr\u003E Chapter 5 Vestibular System \u003Cbr\u003E Chapter 6 Tactile Sensitivity \u003Cbr\u003E Chapter 7 Oral Motor Exercises  \u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003ESECTION II VISUAL SYSTEM\u003C\/b\u003E \u003Cbr\u003E Chapter 8 Visual Perception \u003Cbr\u003E Chapter 9 Visual Motor Integration \u003Cbr\u003E Chapter 10 Visual Scanning  \u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003ESECTION III DISSOCIATION ACTIVITIES\u003C\/b\u003E \u003Cbr\u003E Chapter 11 Body Dissociation \u003Cbr\u003E Chapter 12 Finger Individuation  \u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003ESECTION IV HAND SKILLS\u003C\/b\u003E \u003Cbr\u003E Chapter 13 Open Webspace\u003Cbr\u003E Chapter 14 Fine Motor Skills \u003Cbr\u003E Chapter 15 Pinch-Grasp Manipulation \u003Cbr\u003E Chapter 16 Hand Strengthening  \u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003ESECTION V BODY STRENGTHENING AND STABILIZING\u003C\/b\u003E \u003Cbr\u003E Chapter 17 Core-Strengthening Activities \u003Cbr\u003E Chapter 18 Balance Activities \u003Cbr\u003E Chapter 19 Upper Arm Strengthening and Stabilization  \u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003ESECTION VI COGNITIVE AND HIGHER-LEVEL SKILL BUILDING\u003C\/b\u003E \u003Cbr\u003E Chapter 20 Increasing Attention \u003Cbr\u003E Chapter 21 Organizational Skills  \u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003ESECTION VII SOCIAL SKILLS\u003C\/b\u003E \u003Cbr\u003E Chapter 22 Increasing Social Interaction and Relatedness \u003Cbr\u003E Chapter 23 Group Activities \u003Cbr\u003E Chapter 24 Seasonally Themed Projects and Activities  \u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003ESECTION VIII IMPROVING GAIT PATTERNS\u003C\/b\u003E \u003Cbr\u003E Chapter 25 Increasing the Arches of the Foot\u003Cbr\u003E Chapter 26 Decreasing External Rotation of the Hips\u003Cbr\u003E Chapter 27 Decreasing Internal Rotation of the Hips \u003Cbr\u003E Chapter 28 Addressing Toe-Walking  \u003Cbr\u003E\u003Cbr\u003E References \u003Cbr\u003E Appendix A: Worksheets and Handouts\u003Cbr\u003E Appendix B: Therapeutic iPhone and Android Apps \u003Cbr\u003E Glossary\u003Cbr\u003E Brand Name Products \u003Cbr\u003E Index \u003C\/p\u003E",
+        "otherBindings": [],
+        "authors": [
+            {
+                "@id": "\/v4\/authors\/201912",
+                "@type": "Author",
+                "id": 201912,
+                "name": "Danto MS  OTR\/L, Ayelet H."
+            },
+            {
+                "@id": "\/v4\/authors\/601860",
+                "@type": "Author",
+                "id": 601860,
+                "name": "Michelle Pruzansky"
+            }
+        ],
+        "categories": [
+            {
+                "@id": "\/v4\/categories\/227571",
+                "@type": "Category",
+                "id": 227571,
+                "name": "Allied Health Professions",
+                "parent": {
+                    "@id": "\/v4\/categories\/173514",
+                    "@type": "Category",
+                    "id": 173514,
+                    "name": "Medical Books",
+                    "parent": null
+                }
+            }
+        ],
+        "publisherObj": {
+            "@id": "\/v4\/publishers\/2310",
+            "@type": "Publisher",
+            "id": 2310,
+            "name": "Slack Incorporated"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRatingDTO",
+            "@id": "_:2132",
+            "bestRating": 5,
+            "ratingValue": 4.5,
+            "ratingCount": 12
+        }
+    },
+    "expected": 19,
+    "fetched": 19,
+    "prices": [
+        {
+            "@type": "SellOffer",
+            "@id": "_:1657",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/809",
+                "id": 809,
+                "name": "BooksRun",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 4.4,
+                "ratingCount": 139,
+                "positiveFeedbackCount": 117,
+                "slug": "booksrun",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": true
+                },
+                "minimumOrder": 10,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": [
+                    {
+                        "@id": "\/v4\/coupons\/93",
+                        "@type": "Coupon",
+                        "id": 93,
+                        "title": "BSR_6",
+                        "description": "Extra 6% coupon",
+                        "expiresOn": "2022-12-31 11:59:59"
+                    }
+                ]
+            },
+            "price": 32.34,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1279",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/19",
+                "id": 19,
+                "name": "TextbookRush",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 4.3,
+                "ratingCount": 41,
+                "positiveFeedbackCount": 33,
+                "slug": "textbookrush",
+                "bulkInfo": {
+                    "allowBulk": false,
+                    "inBulkComparison": true
+                },
+                "minimumOrder": 15,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 32.3,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1287",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/77",
+                "id": 77,
+                "name": "TextbookManiac",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 3,
+                "ratingCount": 13,
+                "positiveFeedbackCount": 6,
+                "slug": "textbookmaniac",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": true
+                },
+                "minimumOrder": 0.01,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 32.26,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1658",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/48",
+                "id": 48,
+                "name": "BlueRocketBooks",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 3.4,
+                "ratingCount": 19,
+                "positiveFeedbackCount": 11,
+                "slug": "bluerocketbooks",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": true
+                },
+                "minimumOrder": 15,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 32.11,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1272",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/16",
+                "id": 16,
+                "name": "ValoreBooks",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 3.3,
+                "ratingCount": 8,
+                "positiveFeedbackCount": 4,
+                "slug": "valorebooks",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": true
+                },
+                "minimumOrder": 15,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 27.26,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1652",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/6",
+                "id": 6,
+                "name": "eCampus",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 2.7,
+                "ratingCount": 13,
+                "positiveFeedbackCount": 6,
+                "slug": "ecampus",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": true
+                },
+                "minimumOrder": 5,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 25.16,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1280",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/67",
+                "id": 67,
+                "name": "TopDollar4Books",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 5,
+                "ratingCount": 39,
+                "positiveFeedbackCount": 39,
+                "slug": "topdollar4books",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 0.01,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 20,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1655",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/853",
+                "id": 853,
+                "name": "BookToCash",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 3.9,
+                "ratingCount": 15,
+                "positiveFeedbackCount": 11,
+                "slug": "booktocash",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 7.5,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 9.44,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1290",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/4",
+                "id": 4,
+                "name": "SellBackBooks",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 1,
+                "ratingCount": 6,
+                "positiveFeedbackCount": 0,
+                "slug": "sellbackbooks",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 5,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 7,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1273",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/25",
+                "id": 25,
+                "name": "SellBackYourBook",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 4.4,
+                "ratingCount": 27,
+                "positiveFeedbackCount": 23,
+                "slug": "sellbackyourbook",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": true
+                },
+                "minimumOrder": 7.5,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 3.92,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1649",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/73",
+                "id": 73,
+                "name": "RentText",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 5,
+                "ratingCount": 2,
+                "positiveFeedbackCount": 2,
+                "slug": "renttext",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 25,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 0.77,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1654",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/7",
+                "id": 7,
+                "name": "CollegeBooksDirect",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 2,
+                "ratingCount": 4,
+                "positiveFeedbackCount": 1,
+                "slug": "collegebooksdirect",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 10,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 0.5,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1659",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/825",
+                "id": 825,
+                "name": "BeerMoneyBooks",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 3.5,
+                "ratingCount": 8,
+                "positiveFeedbackCount": 5,
+                "slug": "beermoneybooks",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 25,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 0,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1656",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/50",
+                "id": 50,
+                "name": "Bookstores.com",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 0,
+                "ratingCount": 0,
+                "positiveFeedbackCount": 0,
+                "slug": "bookstores-com",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 15,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 0,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1653",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/824",
+                "id": 824,
+                "name": "Comic Blessing",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 5,
+                "ratingCount": 5,
+                "positiveFeedbackCount": 5,
+                "slug": "comic-blessing",
+                "bulkInfo": {
+                    "allowBulk": false,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 10,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 0,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1651",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/841",
+                "id": 841,
+                "name": "Empire Text",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 5,
+                "ratingCount": 62,
+                "positiveFeedbackCount": 62,
+                "slug": "empire-text",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 0.01,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 0,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1650",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/24",
+                "id": 24,
+                "name": "Powell\u0027s",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 3.3,
+                "ratingCount": 12,
+                "positiveFeedbackCount": 6,
+                "slug": "powell-s",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 9,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 0,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1291",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/823",
+                "id": 823,
+                "name": "TextbookCashback",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 2,
+                "ratingCount": 3,
+                "positiveFeedbackCount": 1,
+                "slug": "textbookcashback",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": false
+                },
+                "minimumOrder": 10,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 0,
+            "isQueued": false
+        },
+        {
+            "@type": "SellOffer",
+            "@id": "_:1283",
+            "vendor": {
+                "@type": "Vendor",
+                "@id": "\/v4\/vendors\/836",
+                "id": 836,
+                "name": "Ziffit by World of Books",
+                "type": "PREFERRED",
+                "buySell": "sell",
+                "rating": 3.1,
+                "ratingCount": 30,
+                "positiveFeedbackCount": 15,
+                "slug": "ziffit-by-world-of-books",
+                "bulkInfo": {
+                    "allowBulk": true,
+                    "inBulkComparison": true
+                },
+                "minimumOrder": 15,
+                "shipsFrom": "",
+                "expectedDeliveryTime": "",
+                "returnShippingCost": "",
+                "coupons": []
+            },
+            "price": 0,
+            "isQueued": false
+        }
+    ],
+    "totalVendors": 21
+}
