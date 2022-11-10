@@ -1,0 +1,1 @@
+VENDOR_XPATH = "//section[contains(@class, 'VendorsListSection')]/div/div/div[contains(@class, 'ListRow')][position() mod 2 = 1]"

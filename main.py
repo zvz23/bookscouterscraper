@@ -1,29 +1,61 @@
-import requests
 import parsel
+import os
+import platform
 from pprint import pprint
+from time import sleep
+from isbn import isbn10to13
+from dotenv import load_dotenv
+from xpaths import *
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver import ChromeOptions
+
+load_dotenv()
 
 API_URL = 'https://api.bookscouter.com/v4/prices/sell/{}?base64=1'
+BOOK_URL = 'https://bookscouter.com/book/{}?type=sell'
+
+driver = None
+chrome_options = ChromeOptions()
+#Uncomment this line
+chrome_options.add_argument("log-level=3")
+chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36")
+#until this line to switch to headless mode
+
+if platform.system() == 'Windows':
+    driver = webdriver.Chrome(executable_path=os.environ.get('CHROME_DRIVER_PATH_WINDOWS'), chrome_options=chrome_options)
+elif platform.system() == 'Linux':
+    driver = webdriver.Chrome(executable_path=os.environ.get('CHROME_DRIVER_PATH_LINUX'), chrome_options=chrome_options)
 
 
-def isbn10to13(isbn10: str):
-    isbn10_list = [9, 7, 8] + [int(x) for x in list(isbn10[0:len(isbn10)-1])]   
-    isbn10_list_prod = []
-    for i, x in enumerate(isbn10_list):
-        if (i % 2 == 0):
-            isbn10_list_prod.append(x * 1)
-        else:
-            isbn10_list_prod.append(x * 3)
+while True:
+    isbn = str(input('Enter isbn:'))
+    driver.get(BOOK_URL.format(isbn))
+    try:
 
-    total = sum(isbn10_list_prod)        
-    total_mod = total % 10
-    check_digit = 0 if total_mod == 0 else 10 - total_mod
-    isbn10_list.append(check_digit)
-    isbn10 = ''.join([str(x) for x in isbn10_list])
-    return isbn10
+        element = WebDriverWait(driver, 3).until(
+            EC.presence_of_element_located((By.XPATH, VENDOR_XPATH))
+        )
 
-TO_SCRAPE = API_URL.format("161711930X")
-json = requests.get(TO_SCRAPE).json()
-pprint(json)
+        selector = parsel.Selector(text=driver.page_source)
+        vendors_html = selector.xpath(VENDOR_XPATH).getall()
+        vendors = []
+        for vendor_html in vendors_html:
+            vendor = {}
+            vendor_selector = parsel.Selector(text=vendor_html)
+            seller = vendor_selector.xpath('string(//div/div[2])').get()
+            vendor['seller'] = 'N/A' if seller is None else seller.strip()
+            price = vendor_selector.xpath('string(//div/div[4])').get()
+            vendor['price'] = 'N/A' if price is None else price.strip()
+            pprint(vendor)
+    except TimeoutException:
+        print('Element not found')
 
 
 

@@ -1,0 +1,7 @@
+Step 1: git clone https://github.com/zvz23/bookscouterscraper.git
+Step 2: cd bookscouterscraper
+Step 3: python3 -m venv venv
+Step 4: source venv/bin/activate
+Step 5: pip install -r requirements.txt
+Step 6: sudo apt-get install chromium-chromedriver
+Step 7: python3 main.py
